@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-size: 16px;
+}
+
+.container {
+    display: grid;
+}
+
+.title {
+    position: relative;
+    width: 20%;
+    padding: 0 8px 2vw;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.item {
+    margin-top: 2vw;
+    padding: 0 8px 2vw;
+    border-bottom: solid 1px #000;
+}
+
+.contentsImg {
+    width: 100%;
+}
